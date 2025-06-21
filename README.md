@@ -1,6 +1,6 @@
-# AI-3026 Azure AI Foundry - Agent Service Infrastructure
+# Azure AI Foundry - Sora Video Generation model
 
-This template could be used as a starting point for Azure AI Foundry - AI Agent Service deployment, which is related to Microsoft Learn AI-3026 ILT. 
+This template deploys an Azure AI Foundry Hub & Project, with the OpenAI Sora Video Generation model.  
 
 This scenario is part of the broader Azure Demo Catalog, available at [Trainer-Demo-Deploy](https://aka.ms/trainer-demo-deploy). 
 
@@ -15,7 +15,7 @@ This scenario is part of the broader Azure Demo Catalog, available at [Trainer-D
 
 1. Create a new folder on your machine.
 ```
-mkdir tdd-azd-ai3026proj
+mkdir tdd-azd-foundrysora
 ```
 2. Next, navigate to the new folder.
 ```
@@ -23,16 +23,13 @@ cd tdd-azd-starter
 ```
 3. Next, run `azd init` to initialize the deployment.
 ```
-azd init -t petender/tdd-azd-ai3026proj
+azd init -t petender/tdd-azd-foundrysora
 ```
-4. Copy the starter template into its own directory and modify the template.
+4. Run the scenario deployment
 ```
-Update the main.bicep and resources.bicep with your own resource information
+azd up
 ```
-5. Update the azure.yaml metadata
-```
-Update the name and metadata.template parameters in the azure.yaml, with your preferred scenario name, e.g. tdd-azd-trafficmgr
-```
+5. Check the demoguide for additional instructions on what the scenario allows to demo / test.
 
 
 
