@@ -23,7 +23,7 @@ cd tdd-azd-starter
 ```
 3. Next, run `azd init` to initialize the deployment.
 ```
-azd init -t petender/tdd-azd-foundrysora
+azd init -t petender/azd-foundrysora
 ```
 4. Run the scenario deployment
 ```
