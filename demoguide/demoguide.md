@@ -48,7 +48,7 @@ The following resources are getting deployed:
 * kvsora%uniquestring%: Key Vault Resource
 * stsora%uniquestring%: Storage Account which is required by AI Foundry
 
-<img src="https://raw.githubusercontent.com/petender/azd-foundrysora/refs/heads/main/demoguide/ResourceGroup_Overview.png?raw=true" alt="AI Foundry with Sora model Resource Group" style="width:70%;">
+<img src="https://raw.githubusercontent.com/petender/azd-foundrysora/refs/heads/main/demoguide/ResourceGroup_Overview.png" alt="AI Foundry with Sora model Resource Group" style="width:70%;">
 <br></br>
 
 
@@ -56,29 +56,29 @@ The following resources are getting deployed:
 
 1. Assuming you already walked the learner through the foundational concepts of Azure AI Foundry, Hub & Project, the demo starts from opening the Azure AI Foundry portal from https://ai.azure.com, navigating to the hubsora%uniquestring% resource, and **selecting the projsora%uniquestring% Foundry Project**.
 
-<img src="https://raw.githubusercontent.com/petender/azd-foundrysora/refs/heads/main/demoguide/FoundryProject.png?raw=true" alt="AI Foundry Project" style="width:70%;">
+<img src="https://raw.githubusercontent.com/petender/azd-foundrysora/refs/heads/main/demoguide/FoundryProject.png" alt="AI Foundry Project" style="width:70%;">
 <br></br>
 
 1. Navigate to the **My Assets** section in the left menu, and select **Models + endpoints**.
 
-<img src="https://raw.githubusercontent.com/petender/azd-foundrysora/refs/heads/main/demoguide/SoraModel_Overview.png?raw=true" alt="Sora Model Overview" style="width:70%;">
+<img src="https://raw.githubusercontent.com/petender/azd-foundrysora/refs/heads/main/demoguide/SoraModel_Overview.png" alt="Sora Model Overview" style="width:70%;">
 <br></br>
 
 1. select **sora** to open its detailed view. Highlight the **Target URI**, which would be relevant for a developer to know as part of their application code references. Next, briefly touch on the **Tokens per Minute Rate Limit** and how this is used by the LLM model in the backend. Last, briefly discuss the **Model version** and **Model retirement date**.
 
-<img src="https://raw.githubusercontent.com/petender/azd-foundrysora/refs/heads/main/demoguide/SoraModel_Details.png?raw=true" alt="Sora Model Details" style="width:70%;">
+<img src="https://raw.githubusercontent.com/petender/azd-foundrysora/refs/heads/main/demoguide/SoraModel_Details.png" alt="Sora Model Details" style="width:70%;">
 <br></br>
 
 1. From the **Models & Endpoints** page, click the **Open In Playground** button (if you closed this view, you can directly navigate to **Playgrounds** from the left menu and select **Video Playground (preview) )
 
-<img src="https://raw.githubusercontent.com/petender/azd-foundrysora/refs/heads/main/demoguide/VideoPlayground.png?raw=true" alt="Video Playground" style="width:70%;">
+<img src="https://raw.githubusercontent.com/petender/azd-foundrysora/refs/heads/main/demoguide/VideoPlayground.png" alt="Video Playground" style="width:70%;">
 <br></br>
 
 1. In the **prompt window - saying Describe the video you want to generate**, enter a descriptive prompt message, what you want the video to be about. For example "A cowboy riding a horse in a Montana mountain scene". For more inspiration and seeing examples of more detailed prompts and the resulting videos, check https://openai.com/sora/.
 
 Next, specify the required video settings, such as resolution, duration, etc.
 
-<img src="https://raw.githubusercontent.com/petender/azd-foundrysora/refs/heads/main/demoguide/Sora_Prompt.png?raw=true" alt="Sora Sample Prompt" style="width:70%;">
+<img src="https://raw.githubusercontent.com/petender/azd-foundrysora/refs/heads/main/demoguide/Sora_Prompt.png" alt="Sora Sample Prompt" style="width:70%;">
 <br></br>
 
 For the purpose of the demo, I suggest leaving the defaults as is (16:9, 480p, 5sec, 1v), to also keep cost in control.
@@ -95,7 +95,7 @@ For the purpose of the demo, I suggest leaving the defaults as is (16:9, 480p, 5
 
 1. Click **Generate**. After about 20-30 seconds, your resulting video will be shown on screen.
 
-<img src="https://raw.githubusercontent.com/petender/azd-foundrysora/refs/heads/main/demoguide/Sora_Video_Output.png?raw=true" alt="Sora Sample Video" style="width:70%;">
+<img src="https://raw.githubusercontent.com/petender/azd-foundrysora/refs/heads/main/demoguide/Sora_Video_Output.png" alt="Sora Sample Video" style="width:70%;">
 <br></br>
 
 This concludes the demo suggestion on how to show Azure AI Foundry with Sora Video Creation Playground.
