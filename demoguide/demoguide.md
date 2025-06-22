@@ -11,7 +11,7 @@
 
 This scenario deploys an Azure AI Foundry Hub and Project architecture, with the OpenAI Sora Model, allowing you to create a video snippet from the Video Playground.
 
-<img src="https://raw.githubusercontent.com/petender/tdd-azd-foundrysora/refs/heads/main/demoguide/AIFoundrywithSora.png?raw=true" alt="AI Foundry with Sora scenario diagram" style="width:70%;">
+<img src="https://raw.githubusercontent.com/petender/azd-foundrysora/refs/heads/main/demoguide/AIFoundrywithSora.png?raw=true" alt="AI Foundry with Sora scenario diagram" style="width:70%;">
 <br></br>
 
 <div style="background: lightgreen; 
