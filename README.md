@@ -19,7 +19,7 @@ mkdir tdd-azd-foundrysora
 ```
 2. Next, navigate to the new folder.
 ```
-cd tdd-azd-starter
+cd tdd-azd-foundrysora
 ```
 3. Next, run `azd init` to initialize the deployment.
 ```
